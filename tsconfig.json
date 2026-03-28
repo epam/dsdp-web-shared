@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.react.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "dist",
+    "composite": true,
+    "noEmit": false
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "../web-components"
+    }
+  ]
+}
